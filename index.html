@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="schortcut icon" href="casino.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class='casino'>
+        <h1>слот-машина</h1>
+        <div class="drum">
+            <div id="1" class="tb 1">
+                <!-- <img src='img/0.jpg' class="twist"/>
+                <img src='img/1.jpg' class="hidden" /> -->
+
+            </div>
+            <div id="2" class="tb 2"></div>
+            <div id="3" class="tb 3"></div>
+            <div id="4" class="tb 4"></div>
+        </div>
+
+        <div class="money">
+            <h2>жетоны</h2>
+        </div>
+        <div class="play">
+            <h2>игра</h2>
+        </div>
+        <div class="screen">результат</div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        let casino = new Casino();
+        casino.init()
+    </script>
+    
+
+</body>
+
+</html>
